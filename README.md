@@ -13,7 +13,7 @@ conda activate zaebuc
 
 pip install -r requirements.txt
 ```
-Note that to run the Arabic and English grammatical error correction (GEC) experiments using the models developed by [Alhafni et al., ]() and [Omelianchuk et al., ](), you'd need to follow their instructions on installing the necessary packages.
+Note that to run the Arabic and English grammatical error correction (GEC) experiments using the models developed by [Alhafni et al., 2023](https://github.com/CAMeL-Lab/arabic-gec/) and [Omelianchuk et al., 2020](https://github.com/grammarly/gector), you'd need to follow their instructions on installing the necessary packages.
 
 # Experiments and Reproducibility:
 This repo is organized as follows:
