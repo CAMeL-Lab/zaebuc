@@ -22,7 +22,7 @@ do
     do
         DATA_DIR=/scratch/ba63/zaebuc-lrec-2026/expriments/written/aes/bert/data/mix/$lang
         TEST_FILE=/scratch/ba63/zaebuc-lrec-2026/expriments/written/aes/bert/data/$dataset/$lang/dev.txt
-        MODEL_DIR=/scratch/ba63/zaebuc-lrec-2026/expriments/written/aes/bert/models/mix/${lang}_check
+        MODEL_DIR=/scratch/ba63/zaebuc-lrec-2026/expriments/written/aes/bert/models/mix/${lang}
         BATCH_SIZE=32
         PRED_MODE=${dataset}_dev
 
