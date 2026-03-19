@@ -20,7 +20,7 @@ do
         --input_file /scratch/ba63/zaebuc-lrec-2026/public-release/written/zaebuc-w1/ar/gec/$split.raw.tok \
         --ged_model CAMeL-Lab/camelbert-msa-zaebuc-ged-13 \
         --gec_model CAMeL-Lab/arabart-zaebuc-gec-ged-13 \
-        --output_file /scratch/ba63/zaebuc-lrec-2026/expriments/written/gec/models/seq2seq/zaebuc-1/ar/$split.txt
+        --output_file /scratch/ba63/zaebuc-lrec-2026/expriments/written/gec/models/seq2seq/zaebuc-w1/ar/$split.txt
 done
 
 
@@ -31,6 +31,6 @@ do
         --input_file /scratch/ba63/zaebuc-lrec-2026/public-release/written/zaebuc-w2/ar/gec/$split.raw.tok \
         --ged_model CAMeL-Lab/camelbert-msa-zaebuc-ged-13 \
         --gec_model CAMeL-Lab/arabart-zaebuc-gec-ged-13 \
-        --output_file /scratch/ba63/zaebuc-lrec-2026/expriments/written/gec/models/seq2seq/zaebuc-2/ar/$split.txt
+        --output_file /scratch/ba63/zaebuc-lrec-2026/expriments/written/gec/models/seq2seq/zaebuc-w2/ar/$split.txt
 done
 
