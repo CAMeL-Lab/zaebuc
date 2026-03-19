@@ -17,15 +17,21 @@ dataset=zaebuc-w2
 split=test
 
 if [[ $data_lang == "ar" ]]; then
-    input_file=$split.raw.tok
+    input_file=/scratch/ba63/zaebuc-lrec-2026/public-release/written/$dataset/$data_lang/aes/$split.raw.tok
 else
-    input_file=$split.raw
+    input_file=/scratch/ba63/zaebuc-lrec-2026/public-release/written/$dataset/$data_lang/aes/$split.raw
 fi
+
+# removing the header from the input file
+input_tmp=$(mktemp)
+tail -n +2 "$input_file" > "$input_tmp"
 
 python run_gpt.py \
     --model $llm \
     --prompt_lang en \
     --data_lang $data_lang \
     --examples /home/ba63/zaebuc-lrec-2026/aes/llms/few-shot-examples/few-shot-examples-${data_lang}.json \
-    --input_data /scratch/ba63/zaebuc-lrec-2026/public-release/written/$dataset/$data_lang/aes/$input_file \
+    --input_data $input_tmp \
     --output /scratch/ba63/zaebuc-lrec-2026/expriments/written/aes/llms-outputs/$llm/$dataset/$data_lang/$split.txt
+
+rm "$input_tmp"
