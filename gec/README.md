@@ -12,5 +12,5 @@ This directory contains scripts and resources for reproducing the GEC experiment
   - To reproduce LLM outputs for both Arabic and English, run the scripts in: [llms/scripts](llms/scripts).
     
 ## Evaluation:
-- Arabic: Evaluate Seq2Seq and LLM outputs using [ar/run_ar_eval.sh].
-- English: Evaluate GECToR and LLM outputs using: [en/run_en_eval.sh].
+- Arabic: Evaluate Seq2Seq and LLM outputs using [ar/run_ar_eval.sh](ar/run_ar_eval.sh).
+- English: Evaluate GECToR and LLM outputs using: [en/run_en_eval.sh](en/run_en_eval.sh).
