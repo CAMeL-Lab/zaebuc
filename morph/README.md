@@ -4,7 +4,7 @@ This directory contains scripts and resources for reproducing the morphological 
 ## Reproducing Model Outputs:
 
 - Zaebuc written:
-  - To reproduce CAMeL Tools's output for Arabic in the written corpus, run [morph_tagging/written/run_camelTools.sh](morph_tagging/written/run_camelTools.sh)
+  - To reproduce CAMeL Tools' output for Arabic in the written corpus, run [morph_tagging/written/run_camelTools.sh](morph_tagging/written/run_camelTools.sh)
 - LLMs:
   - To reproduce LLM outputs for both Arabic and English, run the scripts in: [llms/scripts](llms/scripts).
 
