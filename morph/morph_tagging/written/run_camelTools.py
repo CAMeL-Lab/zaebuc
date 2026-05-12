@@ -7,7 +7,7 @@ from camel_tools.morphology.database import MorphologyDB
 from camel_tools.morphology.analyzer import Analyzer
 from camel_tools.utils.charmap import CharMapper
 bw2ar = CharMapper.builtin_mapper('bw2ar')
-db_dir="/Users/injy.hamed/Documents/Tools/camel_tools/databases"
+db_dir="path_to_camel_tools_databases"
 unfactored_msa = BERTUnfactoredDisambiguator.pretrained(model_name='msa')
 db = MorphologyDB(db_dir+'/MSA/calima-msa-s31_0.4.2.utf8.db', 'a')
 
