@@ -1,8 +1,6 @@
 
-dir_public=/Users/injy.hamed/Documents/Projects/Zaebuc/camera_ready/final/release/public
-dir_exp=/Users/injy.hamed/Documents/Projects/Zaebuc/camera_ready/final/release/experiments
-#dir_public=/scratch/ba63/zaebuc-lrec-2026/public-release
-#dir_exp=/scratch/ba63/zaebuc-lrec-2026/expriments/
+dir_public=/scratch/ba63/zaebuc-lrec-2026/public-release
+dir_exp=/scratch/ba63/zaebuc-lrec-2026/expriments/
 
 for dataset in zaebuc-w1 zaebuc-w2; do
   python run_camelTools.py \
