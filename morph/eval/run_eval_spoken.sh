@@ -4,7 +4,6 @@ dir_public=/scratch/ba63/zaebuc-lrec-2026/public-release
 dir_exp=/scratch/ba63/zaebuc-lrec-2026/expriments/
 
 # CAMeL Tools + Stanza (C&S)
-echo ${dataset}
 python evaluate_spoken.py \
   --input_data_auto ${dir_exp}/spoken/morph/models/camelTools+stanza/all.morph.tsv \
   --input_data_gold ${dir_public}/spoken/zaebuc-s/morph/all.morph.tsv  \
