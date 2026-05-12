@@ -20,7 +20,7 @@ For full reproducibility, all model outputs and pretrained models used in this w
 1. [aes](aes/): includes all code and scripts used to train and evaluate automated essay scoring (AES) models in the paper.
 2. [gec](gec/): includes all code and scripts used to evaluate the GEC models we report in the paper.
 3. [morph](morph/): includes all code and scripts used to evaluate the morphosyntactic models we report in the paper.
-4. [asr](asr/):
+4. [asr](asr/): includes the scripts used to evaluate the whisper model we report in the paper.
 
 # License:
 This repo is available under the MIT license. See the [LICENSE](LICENSE) for more info.
