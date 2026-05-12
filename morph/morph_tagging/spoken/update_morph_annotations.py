@@ -10,14 +10,15 @@ from camel_tools.utils.dediac import dediac_ar
 from camel_tools.utils.charsets import AR_LETTERS_CHARSET
 bw2ar = CharMapper.builtin_mapper('bw2ar')
 ar2bw = CharMapper.builtin_mapper('ar2bw')
+db_dir="path_to_camel_tools_databases"
 
 unfactored_glf = BERTUnfactoredDisambiguator.pretrained(model_name='glf')
 unfactored_msa = BERTUnfactoredDisambiguator.pretrained(model_name='msa')
-db = MorphologyDB("/Users/injy.hamed/Documents/Tools/camel_tools/databases/MSA/calima-msa-s31_0.4.2.utf8.db", 'a')
+db = MorphologyDB(db_dir+"/MSA/calima-msa-s31_0.4.2.utf8.db", 'a')
 
 analyzer = Analyzer(db, 'ADD_PROP', cache_size=100000)
 unfactored_msa._analyzer = analyzer
-with open('/Users/injy.hamed/Documents/Tools/camel_tools/databases/MSA/disambig_ranking_cache/calima-msa-s31/default_cache.pickle', 'rb') as f:
+with open(db_dir+'/MSA/disambig_ranking_cache/calima-msa-s31/default_cache.pickle', 'rb') as f:
     unfactored_msa._ranking_cache = pickle.load(f)
 
 dict_mapping={
