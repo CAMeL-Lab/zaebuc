@@ -3,7 +3,7 @@ import json
 
 import openai
 
-API_KEY = "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" # OpenAI API Key
+API_KEY = "" # OpenAI API Key
 openai.api_key = API_KEY
 
 SYSTEM_PROMPT_EN = """
