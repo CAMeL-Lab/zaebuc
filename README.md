@@ -1,5 +1,5 @@
 # Zaebuc
-This repo contains code and pretrained models to reproduce the results in our paper [A Bilingual Bimodal Benchmark for Arabic-English NLP Across Grammatical Correction, Essay Scoring, Morphological Tagging, and Speech Recognition]().
+This repo contains code and pretrained models to reproduce the results in our paper [A Bilingual Bimodal Benchmark for Arabic-English NLP Across Grammatical Correction, Essay Scoring, Morphological Tagging, and Speech Recognition](http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.137.pdf).
 
 # Requirements:
 The code was written for python>=3.10. You will need a few additional packages. Here's how you can set up the environment using conda (assuming you have conda and cuda installed):
