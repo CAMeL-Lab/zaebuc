@@ -45,7 +45,7 @@ LANG_MAP = {
     ('ar', 'ar'): 'العربية'
 }
 
-client = openai.OpenAI(api_key='PJ0fI4XXEurvSNFGKJ348G0F0EzFwAwd',
+client = openai.OpenAI(api_key='',
                        base_url='https://api.fanar.qa/v1')
 
 
