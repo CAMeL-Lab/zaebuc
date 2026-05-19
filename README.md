@@ -28,17 +28,16 @@ This repo is available under the MIT license. See the [LICENSE](LICENSE) for mor
 # Citation:
 ```bibtex
 @inproceedings{alhafni-etal-2026-bilingual,
-    title = "A Bilingual Bimodal Benchmark for Arabic-English NLP Across Grammatical Correction, Essay Scoring, Morphological Tagging, and Speech Recognition",
-    author = "Alhafni, Bashar and
-         Hamed, Injy and
-         Eryani, Fadhl and
-         Palfreyman, David and
-         Habash, Nizar",
-    booktitle = "Proceedings of the Sixteenth Language Resources and Evaluation Conference",
-    year = "2026",
-    abbr= "LREC",
-    address = "Mallorca, Spain",
-    publisher = "European Language Resources Association"
+  title = {A Bilingual Bimodal Benchmark for Arabic-English NLP across Grammatical Correction, Essay Scoring, Morphological Tagging, and Speech Recognition},
+  author = {Alhafni, Bashar and Hamed, Injy and Eryani, Fadhl and Palfreyman, David and Habash, Nizar},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {1732--1749},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/489vftd6umyh},
+  abstract = {Building comprehensive datasets that support a variety of NLP tasks and cover a diversity of languages and domains is vital for NLP evaluation purposes. In this paper, we present ZAEBUC*, a dataset that builds upon and enriches prior corpora with new annotations and benchmarking experiments. ZAEBUC* serves as a benchmark for a range of NLP tasks, including grammatical error correction, automated essay scoring, automatic speech recognition, and morphological tagging, which includes tokenization, part-of-speech tagging, and lemmatization. The dataset covers Arabic and English in both written and spoken forms, offering a bilingual and bimodal resource. Furthermore, the corpus brings together a collection of resources gathered from a similar population, enabling cross-linguistic and cross-modal comparisons. We provide benchmarking results, demonstrating the performance of NLP models, including LLMs, across various tasks, languages, and modalities.}
 }
-
 
